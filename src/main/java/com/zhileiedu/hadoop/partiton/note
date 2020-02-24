@@ -1,0 +1,7 @@
+reduce task个数是人为设定的
+自定义的返回的partition个数，不能超过设定的
+也可以少于设定的，但是这样会产生一个空分区，原因:设定有几个ReduceTask 则有几个分区
+job.setNumReduceTasks(5);   这样设置则必须有5个分区
+
+ps:分区号不能跳
+

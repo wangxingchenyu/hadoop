@@ -1,0 +1,4 @@
+com\zhileiedu\hadoop\hdfs\HdfsClient.class
+com\zhileiedu\hadoop\mapreduce\WcDriver.class
+com\zhileiedu\hadoop\mapreduce\WcReducer.class
+com\zhileiedu\hadoop\mapreduce\WcMapper.class

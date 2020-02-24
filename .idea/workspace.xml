@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46adbd2f-8cea-48da-a598-82eb8e948890" name="Default Changelist" comment="Flow/InputFormat/Partition/rsa/Outputformat/join">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/combiner/CombinercDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/flow/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/flow/FlowDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/flow/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/flow/FlowReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/groupingComparator/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/groupingComparator/OrderComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/groupingComparator/OrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/groupingComparator/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/groupingComparator/OrderReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/hdfs/HdfsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduce/WcDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduce/WcMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduce/WcReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/bean/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myinputformat/MyInputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myinputformat/MyRecodReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myinputformat/WholeFileDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myoutputformat/MyOutputDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myoutputformat/MyOutputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myoutputformat/MyRecodWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myoutputformat/localFile/MyOutputFormatLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myoutputformat/localFile/MyRecodWriterLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/partiton/MyPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/partiton/PartitionDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/partiton/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/rsa/RSAUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/rsa/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/writeableCompare/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/writeableCompare/SortDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/writeableCompare/SortMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/writeableCompare/SortReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/writeableCompare2/SortDriver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/writeableCompare2/SortPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/hadoop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/hadoop_test.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/combiner/CombinercDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/flow/FlowBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/flow/FlowDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/flow/FlowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/flow/FlowReduce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/groupingComparator/OrderBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/groupingComparator/OrderComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/groupingComparator/OrderDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/groupingComparator/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/groupingComparator/OrderReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/hdfs/HdfsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduce/WcDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduce/WcMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduce/WcReducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJReduce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/bean/OrderBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myinputformat/MyInputFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myinputformat/MyRecodReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myinputformat/WholeFileDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myoutputformat/MyOutputDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myoutputformat/MyOutputFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myoutputformat/MyRecodWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myoutputformat/localFile/MyOutputFormatLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/myoutputformat/localFile/MyRecodWriterLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/partiton/MyPartition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/partiton/PartitionDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/rsa/RSAUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/rsa/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/writeableCompare/FlowBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/writeableCompare/SortDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/writeableCompare/SortMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/writeableCompare/SortReduce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/writeableCompare2/SortDriver2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/writeableCompare2/SortPartition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/hadoop_test-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/myoutputformat/MyRecodWriter.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\java_demo\hadoop_test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Y0thF6Lw2NpYAjP6seGCIstYmk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhileiedu.hadoop.myoutputformat" />
+      <recent name="com.zhileiedu.hadoop.combiner" />
+      <recent name="com.zhileiedu.hadoop.writeableCompare2" />
+      <recent name="com.zhileiedu.hadoop.writeableCompare" />
+      <recent name="com.zhileiedu.hadoop.partiton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_demo\hadoop_test\src\main\java\com\zhileiedu\hadoop\myoutputformat\localFile" />
+      <recent name="D:\java_demo\hadoop_test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RJDriver">
+    <configuration name="MyOutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.myoutputformat.MyOutputDriver" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.myoutputformat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.groupingComparator.OrderDriver" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.groupingComparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RJDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.mapreduceJoin.RJDriver" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.mapreduceJoin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.test.T" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.rsa.T" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.rsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="HdfsClient" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.OrderDriver" />
+      <item itemvalue="Application.T (1)" />
+      <item itemvalue="Application.T (2)" />
+      <item itemvalue="Application.MyOutputDriver" />
+      <item itemvalue="Application.RJDriver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RJDriver" />
+        <item itemvalue="Application.MyOutputDriver" />
+        <item itemvalue="Application.T (2)" />
+        <item itemvalue="Application.OrderDriver" />
+        <item itemvalue="Application.T (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46adbd2f-8cea-48da-a598-82eb8e948890" name="Default Changelist" comment="" />
+      <created>1582091456578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582091456578</updated>
+      <workItem from="1582091459492" duration="22971000" />
+      <workItem from="1582260234692" duration="731000" />
+      <workItem from="1582342857778" duration="5860000" />
+      <workItem from="1582359259518" duration="3075000" />
+      <workItem from="1582363391866" duration="29504000" />
+      <workItem from="1582523918959" duration="328000" />
+      <workItem from="1582526511487" duration="20992000" />
+    </task>
+    <task id="LOCAL-00001" summary="hadoop api操作">
+      <created>1582167365577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582167365577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hadoop api操作">
+      <created>1582167397402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582167397402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hadoop api操作">
+      <created>1582191521646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191521646</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mapreduce API">
+      <created>1582360589572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582360589572</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新加mapper案例">
+      <created>1582366149899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582366149899</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Flow/InputFormat/Partition">
+      <created>1582453130284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582453130284</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Flow/InputFormat/Partition">
+      <created>1582462310797</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582462310797</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Flow/InputFormat/Partition">
+      <created>1582471164770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582471164770</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Flow/InputFormat/Partition">
+      <created>1582538737627</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582538737627</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Flow/InputFormat/Partition/rsa/Outputformat">
+      <created>1582538989779</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582538989779</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Flow/InputFormat/Partition/rsa/Outputformat/join">
+      <created>1582551504015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582551504015</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Flow/InputFormat/Partition/rsa/Outputformat/join">
+      <created>1582551626254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582551626254</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Flow/InputFormat/Partition/rsa/Outputformat/join">
+      <created>1582552014001</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582552014001</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="hadoop api操作" />
+    <MESSAGE value="mapreduce API" />
+    <MESSAGE value="新加mapper案例" />
+    <MESSAGE value="Flow/InputFormat/Partition" />
+    <MESSAGE value="Flow/InputFormat/Partition/rsa/Outputformat" />
+    <MESSAGE value="Flow/InputFormat/Partition/rsa/Outputformat/join" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flow/InputFormat/Partition/rsa/Outputformat/join" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="625" y="186" key="#Inspections" timestamp="1582549013231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="186" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1582549013231" />
+    <state x="552" y="181" key="#Notifications" timestamp="1582552058876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582552058876" />
+    <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582365792593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582095572825" />
+    <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582365792593" />
+    <state x="890" y="399" key="#com.intellij.ide.util.MemberChooser" timestamp="1582546559105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="890" y="399" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582546559105" />
+    <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582095549930">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1582095549930" />
+    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2" timestamp="1582552358961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582191518331" />
+    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582552358961" />
+    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1582526920384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="420" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1582526920384" />
+    <state x="160" y="94" key="DiffContextDialog" timestamp="1582552159240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="160" y="94" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582552159240" />
+    <state x="564" y="131" key="FileChooserDialogImpl" timestamp="1582552446496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="84" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582167330129" />
+    <state x="564" y="131" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582552446496" />
+    <state x="823" y="415" width="274" height="279" key="Github.ShareDialog" timestamp="1582552321591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="823" y="415" width="274" height="279" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582552321591" />
+    <state x="552" y="181" key="GrepConsoleSettings" timestamp="1582519348589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="GrepConsoleSettings/0.0.1920.1040@0.0.1920.1040" timestamp="1582519348589" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1582552072367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="143" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582552072367" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1582552072367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="143" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582552072367" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1582552072367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="143" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582552072367" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1582552072367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1237" height="143" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582552072367" />
+    <state x="664" y="117" key="RollbackChangesDialog" timestamp="1582552129924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="117" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582552129924" />
+    <state x="474" y="155" key="SettingsEditor" timestamp="1582552440658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="120" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582260334519" />
+    <state x="474" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582552440658" />
+    <state x="681" y="261" width="567" height="524" key="StructurePopup" timestamp="1582466806753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="567" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1582466806753" />
+    <state x="350" y="98" key="Vcs.Push.Dialog.v2" timestamp="1582552523335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="233" y="64" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582191524313" />
+    <state x="350" y="98" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582552523335" />
+    <state x="754" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582552244852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582552244852" />
+    <state width="505" height="98" key="javadoc.popup.new" timestamp="1582355526144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="505" height="98" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1582355526144" />
+    <state x="663" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1582540993936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="152" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582540993936" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1582440153895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582440153895" />
+    <state x="486" y="198" width="935" height="663" key="search.everywhere.popup" timestamp="1582451907846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="198" width="935" height="663" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582451907846" />
+  </component>
+</project>
