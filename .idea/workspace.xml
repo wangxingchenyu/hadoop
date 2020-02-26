@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46adbd2f-8cea-48da-a598-82eb8e948890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/ETL/LogDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/ETL/LogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapjoin/MJDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapjoin/MJMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFMapper1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFReducer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFReducer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llMapper1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llReducer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llReducer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowBeanComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/reduceJoin/RJComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/reduceJoin/RJDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/reduceJoin/RJMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/RJReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/reduceJoin/RJReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/mapreduceJoin/bean/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/reduceJoin/bean/OrderBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/RJReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhileiedu/hadoop/mapreduceJoin/bean/OrderBean.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,18 +92,46 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhileiedu.hadoop.friends" />
+      <recent name="com.zhileiedu.hadoop.invertindex" />
+      <recent name="com.zhileiedu.hadoop.topN" />
       <recent name="com.zhileiedu.hadoop.myoutputformat" />
       <recent name="com.zhileiedu.hadoop.combiner" />
-      <recent name="com.zhileiedu.hadoop.writeableCompare2" />
-      <recent name="com.zhileiedu.hadoop.writeableCompare" />
-      <recent name="com.zhileiedu.hadoop.partiton" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java_demo\hadoop_test\src\main\java\com\zhileiedu\hadoop\myoutputformat\localFile" />
       <recent name="D:\java_demo\hadoop_test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FFDriver">
+    <configuration name="FFDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.friends.FFDriver" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.friends.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.topN.FlowDriver" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.topN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LogDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.ETL.LogDriver" />
       <module name="hadoop" />
@@ -118,41 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MJDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.mapjoin.MJDriver" />
+    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.friends.T" />
       <module name="hadoop" />
       <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhileiedu.hadoop.mapjoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyOutputDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.myoutputformat.MyOutputDriver" />
-      <module name="hadoop" />
-      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhileiedu.hadoop.myoutputformat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RJDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.reduceJoin.RJDriver" />
-      <module name="hadoop" />
-      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhileiedu.hadoop.reduceJoin.*" />
+          <option name="PATTERN" value="com.zhileiedu.hadoop.friends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,18 +167,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="llDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhileiedu.hadoop.invertindex.llDriver" />
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=atguigu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhileiedu.hadoop.invertindex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MyOutputDriver" />
-      <item itemvalue="Application.RJDriver" />
-      <item itemvalue="Application.MJDriver" />
       <item itemvalue="Application.LogDriver" />
+      <item itemvalue="Application.FlowDriver" />
+      <item itemvalue="Application.llDriver" />
+      <item itemvalue="Application.T" />
+      <item itemvalue="Application.FFDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FFDriver" />
+        <item itemvalue="Application.T" />
+        <item itemvalue="Application.llDriver" />
+        <item itemvalue="Application.FlowDriver" />
         <item itemvalue="Application.LogDriver" />
-        <item itemvalue="Application.MJDriver" />
-        <item itemvalue="Application.RJDriver" />
-        <item itemvalue="Application.MyOutputDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +226,7 @@
       <workItem from="1582359259518" duration="3075000" />
       <workItem from="1582363391866" duration="29504000" />
       <workItem from="1582523918959" duration="328000" />
-      <workItem from="1582526511487" duration="36853000" />
+      <workItem from="1582526511487" duration="52295000" />
     </task>
     <task id="LOCAL-00001" summary="hadoop api操作">
       <created>1582167365577</created>
@@ -310,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582552550812</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Flow/InputFormat/Partition/rsa/Outputformat/join">
+      <created>1582683587503</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582683587503</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,10 +365,10 @@
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582095572825" />
     <state x="388" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582604505535" />
-    <state x="890" y="399" key="#com.intellij.ide.util.MemberChooser" timestamp="1582603414650">
+    <state x="890" y="399" key="#com.intellij.ide.util.MemberChooser" timestamp="1582698018676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="890" y="399" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582603414650" />
+    <state x="890" y="399" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582698018676" />
     <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582095549930">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -354,11 +377,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582600753729" />
-    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2" timestamp="1582552543486">
+    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2" timestamp="1582683577329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582191518331" />
-    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582552543486" />
+    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582683577329" />
     <state width="420" height="466" key="DebuggerActiveHint" timestamp="1582526920384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -380,35 +403,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="GrepConsoleSettings/0.0.1920.1040@0.0.1920.1040" timestamp="1582519348589" />
-    <state width="1877" height="486" key="GridCell.Tab.0.bottom" timestamp="1582604333272">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1582701387976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="143" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
-    <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582604333272" />
-    <state width="1877" height="486" key="GridCell.Tab.0.center" timestamp="1582604333272">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582701387976" />
+    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1582701387975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="143" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
-    <state width="1877" height="486" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582604333272" />
-    <state width="1877" height="486" key="GridCell.Tab.0.left" timestamp="1582604333272">
+    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582701387975" />
+    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1582701387974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="143" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
-    <state width="1877" height="486" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582604333272" />
-    <state width="1877" height="486" key="GridCell.Tab.0.right" timestamp="1582604333272">
+    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582701387974" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1582701387976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="143" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582192926959" />
-    <state width="1877" height="486" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582604333272" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582701387976" />
     <state x="664" y="117" key="RollbackChangesDialog" timestamp="1582552129924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="117" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582552129924" />
-    <state x="474" y="155" key="SettingsEditor" timestamp="1582604387343">
+    <state x="502" y="191" key="SettingsEditor" timestamp="1582697313481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="120" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582260334519" />
-    <state x="474" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582604387343" />
+    <state x="502" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582697313481" />
     <state x="681" y="261" width="567" height="524" key="StructurePopup" timestamp="1582466806753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
