@@ -1,6 +1,6 @@
-package com.zhileiedu.hadoop.mapreduceJoin;
+package com.zhileiedu.hadoop.reduceJoin;
 
-import com.zhileiedu.hadoop.mapreduceJoin.bean.OrderBean;
+import com.zhileiedu.hadoop.reduceJoin.bean.OrderBean;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.NullWritable;

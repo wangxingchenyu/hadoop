@@ -1,4 +1,4 @@
-package com.zhileiedu.hadoop.mapreduceJoin.bean;
+package com.zhileiedu.hadoop.reduceJoin.bean;
 
 import org.apache.hadoop.io.WritableComparable;
 
