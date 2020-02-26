@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46adbd2f-8cea-48da-a598-82eb8e948890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFMapper1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFMapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFReducer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/friends/FFReducer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llMapper1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llMapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llReducer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/invertindex/llReducer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowBeanComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhileiedu/hadoop/topN/FlowReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46adbd2f-8cea-48da-a598-82eb8e948890" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +209,7 @@
       <workItem from="1582359259518" duration="3075000" />
       <workItem from="1582363391866" duration="29504000" />
       <workItem from="1582523918959" duration="328000" />
-      <workItem from="1582526511487" duration="52295000" />
+      <workItem from="1582526511487" duration="52556000" />
     </task>
     <task id="LOCAL-00001" summary="hadoop api操作">
       <created>1582167365577</created>
@@ -333,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582683587503</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Flow/InputFormat/Partition/rsa/Outputformat/join/topn/friends">
+      <created>1582701620052</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582701620052</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +339,8 @@
     <MESSAGE value="Flow/InputFormat/Partition" />
     <MESSAGE value="Flow/InputFormat/Partition/rsa/Outputformat" />
     <MESSAGE value="Flow/InputFormat/Partition/rsa/Outputformat/join" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flow/InputFormat/Partition/rsa/Outputformat/join" />
+    <MESSAGE value="Flow/InputFormat/Partition/rsa/Outputformat/join/topn/friends" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flow/InputFormat/Partition/rsa/Outputformat/join/topn/friends" />
   </component>
   <component name="WindowStateProjectService">
     <state x="625" y="186" key="#Inspections" timestamp="1582549013231">
@@ -377,11 +368,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582600753729" />
-    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2" timestamp="1582683577329">
+    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2" timestamp="1582701700123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582191518331" />
-    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582683577329" />
+    <state x="395" y="0" width="900" height="809" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582701700123" />
     <state width="420" height="466" key="DebuggerActiveHint" timestamp="1582526920384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
